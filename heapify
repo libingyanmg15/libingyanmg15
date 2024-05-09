@@ -1,0 +1,4 @@
+function heapify(arr, i) {    // 
+    var left = 2 * i + 1,
+        right = 2 * i + 2,
+        largest = i;
