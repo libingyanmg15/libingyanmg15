@@ -1,0 +1,11 @@
+       Matcher m = p.matcher(INPUT); //  matcher 
+       int count = 0;
+ 
+       while(m.find()) {
+         count++;
+         System.out.println("Match number "+count);
+         System.out.println("start(): "+m.start());
+         System.out.println("end(): "+m.end());
+      }
+   }
+}
