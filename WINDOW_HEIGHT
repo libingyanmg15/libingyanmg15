@@ -1,0 +1,6 @@
+		putimage((WINDOW_WIDTH / 2 - WIDTH / 2), 0-i, WIDTH, text_h , &i_backguan, 0, 0, SRCCOPY);
+		putimage((WINDOW_WIDTH / 2 - WIDTH / 2), text_h + i, WIDTH, WINDOW_HEIGHT - (text_h + i), &i_backguan, 0, text_h, SRCCOPY);
+		putimage((WINDOW_WIDTH / 2 - WIDTH / 2), text_h - i, WIDTH, 2*i, &i_backxing, left, text_h-i, SRCCOPY);
+		FlushBatchDraw();
+		Sleep(5);
+	}
