@@ -1,0 +1,6 @@
+	int text_h = WINDOW_HEIGHT/2;
+	Sleep(300);
+	BeginBatchDraw();
+	for (int i = 0; i < text_h; i++)
+	{
+		clearrectangle((WINDOW_WIDTH / 2 - WIDTH / 2), 0, (WINDOW_WIDTH / 2 + WIDTH / 2), WINDOW_HEIGHT);
