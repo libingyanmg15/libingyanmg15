@@ -1,0 +1,6 @@
+	mciSendString(L"open bgmusic.mp3 alias bg", NULL, 0, NULL);
+	mciSendString(L"play bg repeat", NULL, 0, NULL);
+ 
+	putimage((WINDOW_WIDTH / 2 - WIDTH / 2), 0, WIDTH, WINDOW_HEIGHT, &i_backguan, 0, 0, SRCCOPY);
+	putimage(0, 0, (WINDOW_WIDTH / 2 - WIDTH / 2), WINDOW_HEIGHT, &i_backduicheng, 0, 100, SRCCOPY);
+	putimage((WINDOW_WIDTH / 2 + WIDTH / 2), 0, (WINDOW_WIDTH / 2 - WIDTH / 2), WINDOW_HEIGHT, &i_backduicheng, 1200 - (WINDOW_WIDTH / 2 - WIDTH / 2), 100, SRCCOPY);
