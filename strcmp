@@ -1,0 +1,13 @@
+{
+    U *p=h->next;
+    while(p&&strcmp(p->name,name)!=0)
+    {
+        h=p;
+        p=p->next;
+    }
+    if(p)
+    {
+        h->next=p->next;
+        free(p);
+    }
+}
