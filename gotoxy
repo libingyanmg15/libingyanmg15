@@ -1,0 +1,7 @@
+    for(int i=1;i<num;i++)   //这里的for是用来逐一输出每一个用户的数据 
+    {
+        gotoxy(15,3+2*i);
+        printf("%d:用户名:%s   ",i,s[i].NAME);
+        printf("得分:%d   ",s[i].SCORE);
+     
+    }
